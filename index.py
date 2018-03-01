@@ -102,4 +102,5 @@ def core():
     print_top_words('Файлы XML', xml_data_list)
 
 
-core()
+if __name__ == '__main__':
+    core()
